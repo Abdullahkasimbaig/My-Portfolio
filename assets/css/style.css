@@ -13,6 +13,46 @@
 /*-----------------------------------*\
   #CUSTOM PROPERTY
 \*-----------------------------------*/
+/* Success banner */
+.success-banner {
+  position: fixed;
+  top: -100px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: hsl(45, 100%, 72%);
+  color: #1c1c1c;
+  padding: 15px 30px;
+  border-radius: 10px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+  font-size: 16px;
+  font-weight: 600;
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+  transition: top 0.5s ease-in-out;
+  z-index: 9999;
+  text-align: center;
+}
+
+.success-banner.show {
+  top: 25px;
+}
+
+/* Error message text */
+.error-message {
+  color: hsl(45, 100%, 72%);
+  font-size: 12px;
+  font-style: italic;
+  margin-top: 5px;
+  display: block;
+}
+
+/* Input field highlight with theme color */
+.form-input.error {
+  outline: none;
+  border: 2px solid hsl(45, 100%, 72%);
+  background-color: rgba(255, 230, 160, 0.05); /* subtle background tint */
+  box-shadow: 0 0 8px hsla(45, 100%, 72%, 0.4);
+}
+
 
 :root {
 
