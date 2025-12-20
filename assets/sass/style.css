@@ -91,6 +91,13 @@ END TABLE OF CONTENTS
   --shadow-1:rgba(0, 0, 0, 0.1);
   --shadow-2:rgba(0, 0, 0, 0.07);
 }
+.my-name {
+  font-family: 'Englebert', cursive;
+  font-size: 52px;
+  letter-spacing: 2px;
+  color: #eaeaea;
+  text-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
+}
 
 /*==========================================================================
 * Common Css
